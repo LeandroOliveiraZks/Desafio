@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.logo-image{
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+div {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;    
+    letter-spacing: 0.5px;
+    color: #4B505A; 
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+}
+
+.button-learn-more {
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 1100px) {
+    
+    header {
+        margin: 17px 0 15px 284px;
+        display: block;
+    }
+
+
+    .logo-image {
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin: 490px 22px 0 39px;
+        max-width: 90%;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .button-sign-up {
+        position: absolute;
+        left: 53%;
+        right: 50%;
+        top: 0%;
+        bottom: 0%;
+       
+      
+    }
+
+    main {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    div {
+        margin: 36px 0 0 0;
+    }
+
+    h1 {
+       font-size: 30px;
+       line-height: 30px;
+       width: auto;
+       height: auto;
+       text-align: center;
+       height: 100px;
+       display: block;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        width: 100vh;
+        margin: 29px 26px auto;
+        width: 304px;
+        height: 165px;
+    }
+
+    .button-learn-more {
+        position: absolute;
+        display: block;
+        left: 40%;
+        margin-top: 30px;
+    
+    }
+}
